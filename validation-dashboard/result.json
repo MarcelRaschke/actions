@@ -59,7 +59,7 @@
 		"readme": 401,
 		"codeOwner": 401,
 		"branchPermission": 401,
-		"vulnerabilityBot": 504,
+		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
 		"standardLabels": 401,
 		"nodeModules(.TS)": 401,
