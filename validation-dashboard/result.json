@@ -2,12 +2,12 @@
 	{
 		"repoName": "login",
 		"readme": 500,
-		"codeOwner": 401,
-		"branchPermission": 401,
+		"codeOwner": 500,
+		"branchPermission": 500,
 		"vulnerabilityBot": 401,
-		"issueTemplate": 401,
+		"issueTemplate": 500,
 		"standardLabels": 401,
-		"nodeModules(.TS)": 500,
+		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
@@ -16,18 +16,18 @@
 		"codeOwner": 500,
 		"branchPermission": 401,
 		"vulnerabilityBot": 500,
-		"issueTemplate": 401,
+		"issueTemplate": 500,
 		"standardLabels": 500,
-		"nodeModules(.TS)": 401,
+		"nodeModules(.TS)": 500,
 		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "aci-deploy",
 		"readme": 401,
 		"codeOwner": 500,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 401,
+		"branchPermission": 401,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 500,
 		"standardLabels": 500,
 		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 500
@@ -35,24 +35,24 @@
 	{
 		"repoName": "build-vm-image",
 		"readme": 500,
-		"codeOwner": 500,
+		"codeOwner": 401,
 		"branchPermission": 401,
 		"vulnerabilityBot": 401,
-		"issueTemplate": 401,
-		"standardLabels": 500,
+		"issueTemplate": 500,
+		"standardLabels": 401,
 		"nodeModules(.TS)": 500,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "functions-action",
-		"readme": 500,
-		"codeOwner": 500,
-		"branchPermission": 401,
+		"readme": 401,
+		"codeOwner": 401,
+		"branchPermission": 500,
 		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
-		"standardLabels": 401,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 500
+		"standardLabels": 500,
+		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "functions-container-action",
@@ -60,151 +60,151 @@
 		"codeOwner": 401,
 		"branchPermission": 500,
 		"vulnerabilityBot": 500,
-		"issueTemplate": 500,
-		"standardLabels": 401,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"issueTemplate": 401,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "mysql",
-		"readme": 401,
-		"codeOwner": 401,
+		"readme": 500,
+		"codeOwner": 500,
 		"branchPermission": 401,
-		"vulnerabilityBot": 500,
+		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
 		"standardLabels": 401,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 500
+		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "postgresql",
-		"readme": 401,
-		"codeOwner": 500,
+		"readme": 500,
+		"codeOwner": 401,
 		"branchPermission": 500,
 		"vulnerabilityBot": 500,
-		"issueTemplate": 500,
-		"standardLabels": 401,
+		"issueTemplate": 401,
+		"standardLabels": 500,
 		"nodeModules(.TS)": 500,
 		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "powershell",
 		"readme": 401,
-		"codeOwner": 401,
+		"codeOwner": 500,
 		"branchPermission": 401,
 		"vulnerabilityBot": 500,
 		"issueTemplate": 500,
 		"standardLabels": 500,
 		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "sql-action",
 		"readme": 500,
 		"codeOwner": 401,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
-		"standardLabels": 500,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 401
-	},
-	{
-		"repoName": "appservice-settings",
-		"readme": 500,
-		"codeOwner": 500,
 		"branchPermission": 401,
 		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
 		"standardLabels": 401,
 		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 401
+		"releasesnodeModules(.TS)": 500
+	},
+	{
+		"repoName": "appservice-settings",
+		"readme": 401,
+		"codeOwner": 401,
+		"branchPermission": 500,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 401,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "policy-compliance-scan",
 		"readme": 401,
 		"codeOwner": 401,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
-		"standardLabels": 500,
+		"branchPermission": 401,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 401,
+		"standardLabels": 401,
 		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "k8s-create-secret",
-		"readme": 401,
-		"codeOwner": 500,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
-		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 401
-	},
-	{
-		"repoName": "k8s-deploy",
-		"readme": 401,
-		"codeOwner": 401,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
-		"standardLabels": 401,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 401
-	},
-	{
-		"repoName": "k8s-lint",
-		"readme": 401,
-		"codeOwner": 401,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
-		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 401
-	},
-	{
-		"repoName": "manage-azure-policy",
-		"readme": 401,
-		"codeOwner": 500,
-		"branchPermission": 401,
-		"vulnerabilityBot": 500,
-		"issueTemplate": 401,
-		"standardLabels": 401,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 500
-	},
-	{
-		"repoName": "setup-kubectl",
 		"readme": 500,
 		"codeOwner": 401,
 		"branchPermission": 401,
 		"vulnerabilityBot": 500,
 		"issueTemplate": 500,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 500
+	},
+	{
+		"repoName": "k8s-deploy",
+		"readme": 500,
+		"codeOwner": 500,
+		"branchPermission": 500,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 401,
 		"standardLabels": 401,
 		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 401
+	},
+	{
+		"repoName": "k8s-lint",
+		"readme": 500,
+		"codeOwner": 401,
+		"branchPermission": 401,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 500,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 500
+	},
+	{
+		"repoName": "manage-azure-policy",
+		"readme": 500,
+		"codeOwner": 401,
+		"branchPermission": 401,
+		"vulnerabilityBot": 401,
+		"issueTemplate": 401,
+		"standardLabels": 401,
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 401
+	},
+	{
+		"repoName": "setup-kubectl",
+		"readme": 401,
+		"codeOwner": 500,
+		"branchPermission": 500,
+		"vulnerabilityBot": 500,
+		"issueTemplate": 500,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "aks-set-context",
 		"readme": 500,
-		"codeOwner": 500,
+		"codeOwner": 401,
 		"branchPermission": 401,
-		"vulnerabilityBot": 500,
-		"issueTemplate": 500,
-		"standardLabels": 500,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 500
+		"vulnerabilityBot": 401,
+		"issueTemplate": 401,
+		"standardLabels": 401,
+		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "k8s-bake",
-		"readme": 401,
-		"codeOwner": 500,
-		"branchPermission": 401,
-		"vulnerabilityBot": 500,
-		"issueTemplate": 401,
-		"standardLabels": 401,
+		"readme": 500,
+		"codeOwner": 401,
+		"branchPermission": 500,
+		"vulnerabilityBot": 401,
+		"issueTemplate": 500,
+		"standardLabels": 500,
 		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 401
 	},
@@ -214,10 +214,10 @@
 		"codeOwner": 401,
 		"branchPermission": 500,
 		"vulnerabilityBot": 500,
-		"issueTemplate": 401,
+		"issueTemplate": 500,
 		"standardLabels": 500,
-		"nodeModules(.TS)": 401,
-		"releasesnodeModules(.TS)": 401
+		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "get-keyvault-secrets",
@@ -225,76 +225,76 @@
 		"codeOwner": 401,
 		"branchPermission": 500,
 		"vulnerabilityBot": 401,
-		"issueTemplate": 401,
+		"issueTemplate": 500,
 		"standardLabels": 401,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 401
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "AppConfiguration-Sync",
 		"readme": 500,
 		"codeOwner": 401,
 		"branchPermission": 500,
-		"vulnerabilityBot": 500,
+		"vulnerabilityBot": 401,
+		"issueTemplate": 500,
+		"standardLabels": 500,
+		"nodeModules(.TS)": 500,
+		"releasesnodeModules(.TS)": 500
+	},
+	{
+		"repoName": "k8s-set-context",
+		"readme": 500,
+		"codeOwner": 500,
+		"branchPermission": 500,
+		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
 		"standardLabels": 500,
 		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 401
 	},
 	{
-		"repoName": "k8s-set-context",
+		"repoName": "setup-helm",
 		"readme": 500,
 		"codeOwner": 401,
 		"branchPermission": 500,
-		"vulnerabilityBot": 500,
-		"issueTemplate": 500,
-		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
-	},
-	{
-		"repoName": "setup-helm",
-		"readme": 401,
-		"codeOwner": 500,
-		"branchPermission": 401,
 		"vulnerabilityBot": 401,
 		"issueTemplate": 500,
-		"standardLabels": 401,
+		"standardLabels": 500,
 		"nodeModules(.TS)": 401,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "container-scan",
-		"readme": 401,
-		"codeOwner": 401,
-		"branchPermission": 500,
+		"readme": 500,
+		"codeOwner": 500,
+		"branchPermission": 401,
 		"vulnerabilityBot": 401,
-		"issueTemplate": 500,
+		"issueTemplate": 401,
 		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "docker-login",
-		"readme": 500,
-		"codeOwner": 500,
-		"branchPermission": 500,
-		"vulnerabilityBot": 401,
+		"readme": 401,
+		"codeOwner": 401,
+		"branchPermission": 401,
+		"vulnerabilityBot": 500,
 		"issueTemplate": 500,
-		"standardLabels": 500,
+		"standardLabels": 401,
 		"nodeModules(.TS)": 500,
 		"releasesnodeModules(.TS)": 500
 	},
 	{
 		"repoName": "publish-security-assessments",
 		"readme": 401,
-		"codeOwner": 500,
+		"codeOwner": 401,
 		"branchPermission": 500,
-		"vulnerabilityBot": 500,
+		"vulnerabilityBot": 401,
 		"issueTemplate": 401,
 		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "arm-deploy",
@@ -305,7 +305,7 @@
 		"issueTemplate": 401,
 		"standardLabels": 500,
 		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"releasesnodeModules(.TS)": 401
 	},
 	{
 		"repoName": "cli",
@@ -315,7 +315,7 @@
 		"vulnerabilityBot": 401,
 		"issueTemplate": 500,
 		"standardLabels": 500,
-		"nodeModules(.TS)": 500,
-		"releasesnodeModules(.TS)": 500
+		"nodeModules(.TS)": 401,
+		"releasesnodeModules(.TS)": 401
 	}
 ]
