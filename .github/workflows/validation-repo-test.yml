@@ -9,7 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+      with:
+        ref: main
     - name: validating action repos
       id: checks_validation
       uses: GH-ACE/action-repo-validation@users/balaga-gayatri/release-patch
@@ -31,22 +33,22 @@ jobs:
            git config --local user.name "GitHub Action"
            git pull
            git add --all
-           if [-z "$(git status --porcelain)"]; then
-             echo "::set-output name=push::false"
+           if [ -z "$(git status --porcelain)" ]; then
+             echo "push=false" >> $GITHUB_OUTPUT
            else
              git commit -m "Add changes" -a
-             echo "::set-output name=push::true"
+             echo "push=true" >> $GITHUB_OUTPUT
            fi
       shell: bash
     - name: Push changes
       if: steps.commit1.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
     
-    - uses: actions/setup-python@v2
+    - uses: actions/setup-python@v4
       with:
-        python-version: '3.9.0-alpha - 3.9.0' # SemVer's version range syntax
+        python-version: '3.9.0-alpha - 3.9.0'
     - run: |
         pip3 install json2html
         python ./validation-dashboard/json2htmlrunner.py
@@ -59,15 +61,15 @@ jobs:
            git config --local user.name "GitHub Action"
            git pull
            git add --all
-           if [-z "$(git status --porcelain)"]; then
-             echo "::set-output name=push::false"
+           if [ -z "$(git status --porcelain)" ]; then
+             echo "push=false" >> $GITHUB_OUTPUT
            else
              git commit -m "Add changes" -a
-             echo "::set-output name=push::true"
+             echo "push=true" >> $GITHUB_OUTPUT
            fi
       shell: bash
     - name: Push changes
       if: steps.commit2.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
         github_token: "${{ secrets.GITHUB_TOKEN }}"
