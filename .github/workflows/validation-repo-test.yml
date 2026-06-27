@@ -40,9 +40,8 @@ jobs:
       shell: bash
     - name: Push changes
       if: steps.commit1.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: "${{ secrets.GITHUB_TOKEN }}"
+      run: git push
+      shell: bash
     
     - uses: actions/setup-python@v2
       with:
@@ -68,6 +67,5 @@ jobs:
       shell: bash
     - name: Push changes
       if: steps.commit2.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: "${{ secrets.GITHUB_TOKEN }}"
+      run: git push
+      shell: bash
